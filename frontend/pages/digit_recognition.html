@@ -1,0 +1,48 @@
+<!--
+This page lets users draw a number with their mouse. For that I'm using the 'p5.js' library so a canvas object
+is drawable.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/digit_recognition.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script> 
+    <title>Digit Recognition</title>
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <div class="head">
+                <h1>
+                    Handwritten Digit Recognition
+                </h1>
+                <p>
+                    Draw one digit (0,1,..,9)
+                </p>
+            </div>
+            <div class="wrapper">
+                <div class="draw-area centered">
+                    <div class="canvas-container">
+                        <canvas id="canvasPosition" class="canvasDrawing" height="400", width="400"></canvas>
+                    </div>
+                    <div class="button-container">
+                        <button id="clearDrawing" onclick="clearArea()">Clear Area</button>
+                        <button id="submitDrawing" onclick="sendImage()">Submit</button>
+                    </div>
+                </div>
+                <div class="result centered">
+                    <span id="processedValue">Prediction: </span><span id="processedValue">0</span>
+                    <br><br>
+                    <span id="cnnOutput">What the CNN saw:</span>
+                    <br><br>
+                    <img id="resizedImage" src="/backend/example_images/0.png" alt="Received Image">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../src/js/digit_recognition.js"></script>
+</html>

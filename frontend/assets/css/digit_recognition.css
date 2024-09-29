@@ -1,0 +1,57 @@
+.head {
+    text-align: center;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+p {
+    font-size: 23px;
+}
+
+#processedValue {
+    font-size: 23px;
+}
+
+#cnnOutput {
+    font-size: 20px;
+}
+
+.wrapper { 
+    display: flex;
+    flex-wrap: wrap; /* adjusts items according to window size */
+    justify-content: center; /* centers elements horizontally */
+    align-items: center; /* centers elements vertically */
+    position: relative;
+}
+
+.centered {
+    text-align: center;
+    /*border: 3px solid #333;*/
+    margin: 5px;
+}
+
+.draw-area {
+}
+
+.result {
+    position: absolute;
+    left: 63%;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+#resizedImage {
+    width: 280px; /* Vergrößert das Bild auf das Zehnfache */
+    height: 280px; /* Vergrößert das Bild proportional */
+    image-rendering: pixelated; /* Zeigt die Pixel deutlich an */
+    border: 3px solid #333;
+}

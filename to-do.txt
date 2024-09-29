@@ -1,0 +1,18 @@
+- wenn man das fenster verkleinert, überlappen die divs. nicht gut
+
+Plan (wegen UI Library):
+- ich will die Magic UI Library benutzen, dafür muss ich React können
+1. React und Typescript lernen
+(React Tutorial) https://www.youtube.com/watch?v=cSRop5CJQws&list=PLNmsVeXQZj7oi_Q4whC28Yp12l1I-hauk&index=3
+
+- einfachere Sachen sind NextJS, Tailwind CSS und ShadcnUI
+2. NextJS lernen
+3. Tailwind CSS lernen
+4. ShadcnUI lernen 
+
+- nachdem ich die Basics gelernt habe, kann ich mich mit Magic UI befassen
+5. Magic UI integrieren: erstelle ich eine neue .ts Datei, kompiliere sie und 
+nutze die entstandene .js Datei in einem script-tag in einer .html datei? eine 
+.ts Datei für jede Komponente/Seite oder eine .ts für alle Komponenten? Was ist 
+mit diesen Dateien in dem `@`-Ordner?
+(Magic UI) https://magicui.design/

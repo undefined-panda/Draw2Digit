@@ -1,4 +1,4 @@
-# my_website
+# Draw2Digit
 
 Little side project where I slowly build a website with web applications I find cool.
 
